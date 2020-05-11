@@ -46,7 +46,7 @@ class Stud extends React.Component {
 			if(i.access==="true"){
 			if(i.pass==="true")
 			
-			window.location="https://xaviers-analytic-system.web.app/stud_desk"
+			window.location="https://xaviers-analytic-system.herokuapp.com/stud_desk"
 			else
 			this.setState({message:"Incorrect Password"});
 			}
