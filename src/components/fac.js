@@ -55,9 +55,9 @@ class Fac extends React.Component {
 			if(i.access==="true"){
 			if(i.pass==="true"){
 			if(i.name==='Principal')
-			window.location="https://xaviers-analytic-system.web.app/pal_desk"
+			window.location="https://xaviers-analytics-system.herokuapp.com/pal_desk"
 			else
-			window.location="https://xaviers-analytic-system.web.app/fac_desk"
+			window.location="https://xaviers-analytic-system.herokuapp.com/fac_desk"
 			}
 			else
 			this.setState({message:"Incorrect Password"});
