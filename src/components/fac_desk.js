@@ -26,7 +26,7 @@ class Fac_desk extends React.Component {
         const persons = res.data;
         this.setState({ persons });
         console.log(persons)
-      }),5000);
+      })},5000);
   }
 
   render() {
