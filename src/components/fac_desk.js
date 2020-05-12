@@ -21,7 +21,7 @@ class Fac_desk extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://xaviers-analytic-system.herokuapp.com/fac_desk`)
+    setTimeout(()=>{axios.get(`https://xaviers-analytic-system.herokuapp.com/fac_desk`)},5000);
       .then(res => {
         const persons = res.data;
         this.setState({ persons });
