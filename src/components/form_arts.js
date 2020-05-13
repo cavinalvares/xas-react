@@ -228,7 +228,7 @@ export default class Form_arts extends React.Component {
 		<table >
 		<tbody>
 		<tr >
-		<th style={{backgroundColor:"transparent",align:"center"}}><label className="text-white  mb-3 mb-md-0"><h5>Enter Subject Name</h5></label></th>            
+		<th style={{backgroundColor:"transparent",align:"center"}}><label className="text-white  mb-3 mb-md-0"><h5>Enter Subject</h5></label></th>            
 		<th style={{backgroundColor:"transparent"}}><label className="text-white  mb-3 mb-md-0"><h5>Enter Marks</h5></label></th>
                 </tr>
 		<tr>
