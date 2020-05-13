@@ -21,12 +21,12 @@ class Fac_desk extends React.Component {
   }
 
   componentDidMount() {
-    setTimeout(()=>{axios.get(`https://xaviers-analytic-system.herokuapp.com/fac_desk`)
+    axios.get(`https://xaviers-analytic-system.herokuapp.com/fac_desk`)
       .then(res => {
         const persons = res.data;
         this.setState({ persons });
         console.log(persons)
-      })},5000);
+      })
   }
 
   render() {
