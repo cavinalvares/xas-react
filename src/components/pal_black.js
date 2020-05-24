@@ -38,10 +38,11 @@ export default class Pal_black extends React.Component {
     return (
         
         <div class="  overlay" style={{backgroundColor:"blue",padding: "20px 60px 108px 60px"}}>
+        <MDBContainer>
+        <Doughnut data={this.state.data1} options = {{responsive:true}}/>
+        </MDBContainer><br/><br/>
         <div class="container"> 
-	<MDBContainer>
-  <Doughnut data={this.state.data1} options = {{responsive:true}}/>
-</MDBContainer><br/><br/>
+	
             <table border="1" align="center">
               <tbody>
               <tr>
