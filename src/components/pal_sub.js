@@ -39,7 +39,7 @@ class Pal_sub extends React.Component {
 		<div key={i.id}>
                   <table  border="1" align="center">
 		<tbody>
-                <tr>    
+                <tr align="center">    
 		<th><h2>{i.name}</h2></th>
 		</tr>
 		{i.data.map((j)=>{return(<tr align="center"><td width="800">{j}</td></tr>)})}
