@@ -37,12 +37,12 @@ class Pal_sub_arts extends React.Component {
 		
                 return(
 		<div key={i.id}>
-                  <table  border="1" align="center" width="800">
+                  <table  border="1" align="center" >
 		<tbody>
                 <tr>    
 		<th><h2>{i.name}</h2></th>
 		</tr>
-		{i.data.map((j)=>{return(<tr align="center"><td>{j}</td></tr>)})}
+		{i.data.map((j)=>{return(<tr align="center"><td width="800">{j}</td></tr>)})}
 	
 
 		</tbody>	
