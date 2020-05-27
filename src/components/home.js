@@ -84,7 +84,7 @@ render() {
             <div className="row justify-content-center mb-4">
               <div className="col-md-12  text-center">
                 <h1 style={{fontSize:"8vw"}}>Project </h1>
-                <p className="lead mb-5">We Make Mangement of data simpler</p>
+                <p className="lead mb-5">We Make Management of data simpler</p>
                 
               </div>
             </div>
