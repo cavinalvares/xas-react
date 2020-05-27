@@ -89,7 +89,7 @@ export default class Car extends React.Component {
                 
                  <table align="center" border="1" >
 		<tbody>
-	   <tr><th><h2>Combination</h2></th><th><h2>recommended</h2></th></tr>
+	   <tr align="center"><th width="800"><h2>Combination</h2></th><th><h2>recommended</h2></th></tr>
           {this.state.persons.map((c)=>{
             return(
             <tr key = {c.id} ><td width="5%" style={{textAlign:"center"}} className="text-black"><h5>{c.name}</h5></td>
