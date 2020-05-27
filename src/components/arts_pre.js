@@ -95,8 +95,8 @@ export default class Arts_pre extends React.Component {
 		if(c.id===5 ||c.id===6 ||c.id===8 || c.id===10)
             return(
 	    <tr key = {c.id} >
-            <td width="5%" style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
-	    <td width="5%" style={{textAlign:"center"}}><h5>{c.r}</h5></td>
+            <td  style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
+	    <td  style={{textAlign:"center"}}><h5>{c.r}</h5></td>
 	    </tr>
 	)
           })}
@@ -107,8 +107,8 @@ export default class Arts_pre extends React.Component {
 		if(c.id===2 ||c.id===7 ||c.id===11)
             return(
 	    <tr key = {c.id} >
-            <td width="5%" style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
-	    <td width="5%" style={{textAlign:"center"}}><h5>{c.r}</h5></td>
+            <td style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
+	    <td style={{textAlign:"center"}}><h5>{c.r}</h5></td>
 	    </tr>
 	 )
           })}
@@ -119,8 +119,8 @@ export default class Arts_pre extends React.Component {
 		if(c.id===9 ||c.id===3 ||c.id===1 ||c.id===4)
             return(
 		<tr key = {c.id} >
-            <td width="5%" style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
-	    <td width="5%" style={{textAlign:"center"}}><h5>{c.r}</h5></td>
+            <td style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
+	    <td style={{textAlign:"center"}}><h5>{c.r}</h5></td>
 	    </tr>
 		 )
           })}
