@@ -86,7 +86,7 @@ export default class Arts_pre extends React.Component {
                 
                  <table align="center" border="1" className="text-black">
 		<tbody>
-		<tr><th><h2>Combination</h2></th><th><h2>recommended</h2></th></tr>
+		<tr align="center"><th><h2>Combination</h2></th><th><h2>recommended</h2></th></tr>
 		<tr><th colSpan="2"><h2>Group-1</h2></th></tr>
 	
           
