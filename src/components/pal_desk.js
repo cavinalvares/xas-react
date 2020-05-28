@@ -64,7 +64,7 @@ class Pal_desk extends React.Component {
       
     </header>
 
-<div class="site-blocks-cover  overlay" style={{backgroundImage:"url(./images/p_desk.jpeg)"}} data-aos="fade" data-stellar-background-ratio="0.5">
+<divclass="  my-overlay" style={{backgroundImage:"url(./images/p_desk.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 		<h1>Principal</h1>
