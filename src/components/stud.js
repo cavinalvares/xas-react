@@ -37,7 +37,7 @@ class Stud extends React.Component {
 	
             console.log(roll)
         
-          axios.post(`https://xaviers-analyticS-system.herokuapp.com/login`, { roll })
+          axios.post(`https://xaviers-analytic-system.herokuapp.com/login`, { roll })
 	.then((res)=>{
 		const data = res.data
 		console.log(data)
@@ -46,7 +46,7 @@ class Stud extends React.Component {
 			if(i.access==="true"){
 			if(i.pass==="true")
 			
-			window.location="https://xaviers-analytic-system.herokuapp.com/stud_desk"
+			window.location="https://xaviers-analytics-system.herokuapp.com/stud_desk"
 			else
 			this.setState({message:"Incorrect Password"});
 			}
