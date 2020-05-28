@@ -37,7 +37,7 @@ class Stud extends React.Component {
 	
             console.log(roll)
         
-          axios.post(`https://xaviers-analytic-system.herokuapp.com/login`, { roll })
+          axios.post(`https://xaviers-analyticS-system.herokuapp.com/login`, { roll })
 	.then((res)=>{
 		const data = res.data
 		console.log(data)
