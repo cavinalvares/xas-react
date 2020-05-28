@@ -146,23 +146,38 @@ class Fac extends React.Component {
         <div class="row">
           <div class="col-md-12 mb-5">
 		
+                <form onSubmit={this.handleSubmit}  align="left">
+    		<h2 class="h4 text-white mb-5">Login </h2>
+		
+	        <div class="row form-group">
+             <div class="col-md-6  mb-md-0" style={{backgroundColor:"transparent",textAlign:"left"}}>
+                
+                  <label class="text-white" for="fname1" >Enter Number:</label>
+                  
+               
+                
+                  <input type='text'  style={{backgroundColor:"transparent"}} value={this.state.name} onChange={this.handleChange} class=" form-control" id="fname1" />
+               </div>
               
-    		<form onSubmit={this.handleSubmit}  className="form-horizontal">
-		<table align="center">
-		<tbody>
-		<tr ><th style={{backgroundColor:"transparent"}}  colSpan="2"><h1>Login</h1></th></tr>
-		<tr>
-		<td style={{backgroundColor:"transparent",textAlign:"right"}}><label className="text-white" style={{fontSize:"150%"}}>Enter Number:</label></td>
-		<td  style={{backgroundColor:"transparent"}}><input type='text' value={this.state.name}  className="border-secondary bg-transparent text-white enter" onChange={this.handleChange}/></td>
-		</tr>
-		<tr>
-		<td style={{backgroundColor:"transparent",textAlign:"right"}}><label className="text-white" style={{fontSize:"150%"}}>Enter Password:</label></td>
-		<td  style={{backgroundColor:"transparent"}}><input type='password' className="border-secondary bg-transparent text-white enter" onChange={this.handlePassword}/></td>
-		</tr>
-		<tr><td style={{backgroundColor:"transparent"}} colSpan="2"><input type="submit"  style={{width:"30%",paddingRight:"30px",paddingLeft:"30px",fontSize:"18px"}}value="Go"  class="btn btn-primary btn-md text-white" /></td></tr>
-		<tr><td style={{backgroundColor:"transparent"}} colSpan="2"><label style={{color:"red"}} ><h2>{this.state.message}</h2></label></td></tr>
-                     </tbody> 
-			</table>
+		</div>
+	    
+	    <div class="row form-group">
+		<div class="col-md-6  mb-md-0" style={{backgroundColor:"transparent",textAlign:"left"}}>
+                
+                  <label class="text-white" for="fname2">Password:</label>
+                  
+                
+                
+                  <input type='password' style={{backgroundColor:"transparent"}} class=" form-control" onChange={this.handlePassword} id="fname2" />
+                </div>
+              </div>
+	    
+		<div class=" form-group">
+		<div style={{backgroundColor:"transparent"}} ><input type="submit"  style={{maxWidth:"40%",fontSize:"80%"}}value="Go"  class="  btn btn-primary  btn-md text-white" /></div></div>
+		<div class=" form-group">
+		<div style={{backgroundColor:"transparent"}} ><label style={{color:"red"}} ><h2>{this.state.message}</h2></label></div></div>
+	    
+		
                       </form>
 		
                   
