@@ -80,7 +80,7 @@ export default class Att extends React.Component {
       
     </header>        
 
-	<div class="  overlay"  style={{backgroundImage: "url(images/img_3.jpg)",backgroundSize: "cover",backgroundPosition: "center",padding: "20px 60px 108px 60px"}}>
+	<div class="  my-overlay" style={{backgroundImage:"url(./images/teachers.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
         <div class="container">   
 	 <table border="1">
               <tbody>
