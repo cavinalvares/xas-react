@@ -149,7 +149,7 @@ export default class Post extends React.Component {
       value6:this.state.value6,
     };
       console.log(user)
-    axios.post(`https://xaviers-analytics-system.herokuapp.com/form`, { user })
+    axios.post(`https://xaviers-analytic-system.herokuapp.com/form`, { user })
        }
 
  
