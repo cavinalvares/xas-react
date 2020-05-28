@@ -46,7 +46,7 @@ class Stud_demo extends React.Component {
 			if(i.access==="true"){
 			if(i.pass==="true")
 			
-			window.location="http://127.0.0.1:3000/stud_desk"
+			window.location="https://xaviers-analytic-system.herokuapp.com/stud_desk"
 			else
 			this.setState({message:"Incorrect Password"});
 			}
@@ -145,7 +145,7 @@ class Stud_demo extends React.Component {
                   
                
                 
-                  <input type='text'  style={{backgroundColor:"transparent"}} value={this.state.name} onChange={this.handleChange} class=" form-control" id="fname1" />
+                  <input type='text'  style={{backgroundColor:"transparent"}} value={this.state.name} onChange={this.handleChange} class=" form-control text-white" id="fname1" />
                </div>
               
 		</div>
@@ -156,7 +156,7 @@ class Stud_demo extends React.Component {
                   
                 
                 
-                  <input type='password' style={{backgroundColor:"transparent"}} class=" form-control" onChange={this.handlePassword} id="fname2" />
+                  <input type='password' style={{backgroundColor:"transparent"}} class=" form-control text-white" onChange={this.handlePassword} id="fname2" />
                 </div>
               </div>
 		<div class=" form-group">
