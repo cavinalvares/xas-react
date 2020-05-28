@@ -75,7 +75,7 @@ export default class Arts_pre extends React.Component {
       
     </header>
 
-<div  class="  my-overlay" style={{backgroundImage:"url(./images/teachers.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
+<div  class="  my-overlay" style={{backgroundImage:"url(./images/arts_add.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
       <div className="container">
         <div className="row align-items-center justify-content-center text-center">
 
