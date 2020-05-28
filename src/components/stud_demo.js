@@ -119,7 +119,7 @@ class Stud_demo extends React.Component {
   
 
     
-	<div class="site-blocks-cover inner-page-cover overlay" style={{backgroundImage:"url(./images/students.jpg)"}} data-aos="fade" data-stellar-background-ratio="0.5">
+	<div class="site-blocks-cover  overlay" style={{backgroundImage:"url(./images/students.jpg)",backgroundSize:"100% 100%"}} data-aos="fade" data-stellar-background-ratio="0.5">
 <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
