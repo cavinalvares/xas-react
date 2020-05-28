@@ -75,7 +75,7 @@ class Stud_desk extends React.Component {
       
     </header>
 
-<div class="site-blocks-cover  overlay" style={{backgroundImage:"url(./images/students_desk.jpg)"}} data-aos="fade" data-stellar-background-ratio="0.5">
+<div class="  my-overlay" style={{backgroundImage:"url(./images/students_desk.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 		
