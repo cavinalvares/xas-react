@@ -64,7 +64,7 @@ class Pal_desk extends React.Component {
       
     </header>
 
-<div class="  my-overlay" style={{backgroundImage:"url(./images/p_desk.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
+<div class="  my-overlay" style={{backgroundImage:"url(./images/p_desk.jpeg)",backgroundSize:"100% 100%"}} data-aos="fade">
       <div class="container">
         <div class="row align-items-center text-white justify-content-center text-center">
 		<h1>Principal</h1>
