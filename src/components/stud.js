@@ -119,7 +119,7 @@ class Stud extends React.Component {
   
 
     
-	<div class="  my-overlay" style={{backgroundImage:"url(./images/students2.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
+	<div class="  my-overlay" style={{backgroundImage:"url(./images/students.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
 <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
