@@ -156,7 +156,7 @@ class Fac extends React.Component {
                   
                
                 
-                  <input type='text'  style={{backgroundColor:"transparent"}} value={this.state.name} onChange={this.handleChange} class=" form-control" id="fname1" />
+                  <input type='text'  style={{backgroundColor:"transparent"}} value={this.state.name} onChange={this.handleChange} class=" text-white form-control" id="fname1" />
                </div>
               
 		</div>
@@ -168,7 +168,7 @@ class Fac extends React.Component {
                   
                 
                 
-                  <input type='password' style={{backgroundColor:"transparent"}} class=" form-control" onChange={this.handlePassword} id="fname2" />
+                  <input type='password' style={{backgroundColor:"transparent"}} class="text-white form-control" onChange={this.handlePassword} id="fname2" />
                 </div>
               </div>
 	    
