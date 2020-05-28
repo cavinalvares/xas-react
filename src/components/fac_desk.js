@@ -79,7 +79,7 @@ class Fac_desk extends React.Component {
 
 <div class="  my-overlay" style={{backgroundImage:"url(./images/teachers_desk.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
       <div class="container">
-        <div class="row align-items-center justify-content-center text-center">
+        <div class="row align-items-center justify-content-center text-center text-white">
 		{this.state.persons.map((i)=>{
             return(
             <h1>{i.name}</h1>
