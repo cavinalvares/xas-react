@@ -46,7 +46,7 @@ class Stud extends React.Component {
 			if(i.access==="true"){
 			if(i.pass==="true")
 			
-			window.location="https://xaviers-analytics-system.herokuapp.com/stud_desk"
+			window.location="https://xaviers-analytic-system.herokuapp.com/stud_desk"
 			else
 			this.setState({message:"Incorrect Password"});
 			}
@@ -134,37 +134,37 @@ class Stud extends React.Component {
           <div class="col-md-12 mb-5">
 		
             
-
-            <form onSubmit={this.handleSubmit}  align="center">
-              <table align="center">
-		<tbody>
-              <tr><th style={{backgroundColor:"transparent"}}  colSpan="2"><h2 class=" text-white mb-5" >Login</h2></th></tr> 
 		
-		<tr class="row form-group" >
-             
-                <td class=" mb-3 mb-md-0" style={{backgroundColor:"transparent",textAlign:"right"}}>
-                  <label class="text-white" for="fname" ><h4>Roll No:</h4></label>
-                  
-                </td>
-                <td class="col-md-6" style={{backgroundColor:"transparent"}}>
-                  <input type='text' value={this.state.name} onChange={this.handleChange} class="  border-secondary bg-transparent text-white enter" id="fname" />
-                </td>
-              </tr>
-
-		 <tr class="row form-group">
-                <td class="  mb-md-0" style={{backgroundColor:"transparent",textAlign:"right"}}>
-                  <label class="text-white" for="fname"><h4>Password:</h4></label>
-                  
-                </td>
-                <td class="col-md-6" style={{backgroundColor:"transparent"}} style={{backgroundColor:"transparent"}}>
-                  <input type='password' style={{backgroundColor:"transparent"}} class=" border-secondary bg-transparent text-white enter" onChange={this.handlePassword} id="fname" />
-                </td>
-              </tr>
+            <form onSubmit={this.handleSubmit}  align="left">
+             <h2 class="h4 text-white mb-5">Login </h2>
 		
-		<tr ><td style={{backgroundColor:"transparent"}} colSpan="2"><input type="submit"  style={{width:"30%",fontSize:"18px"}}value="Go"  class="btn btn-primary btn-md text-white" /></td></tr>
-		<tr><td style={{backgroundColor:"transparent"}} colSpan="2"><label style={{color:"red"}} ><h2>{this.state.message}</h2></label></td></tr>
-		</tbody>
-		</table>
+		<div class="row form-group">
+             <div class="col-md-6  mb-md-0" style={{backgroundColor:"transparent",textAlign:"left"}}>
+                
+                  <label class="text-white" for="fname1" >Roll No:</label>
+                  
+               
+                
+                  <input type='text'  style={{backgroundColor:"transparent"}} value={this.state.name} onChange={this.handleChange} class=" form-control text-white" id="fname1" />
+               </div>
+              
+		</div>
+		 <div class="row form-group">
+		<div class="col-md-6  mb-md-0" style={{backgroundColor:"transparent",textAlign:"left"}}>
+                
+                  <label class="text-white" for="fname2">Password:</label>
+                  
+                
+                
+                  <input type='password' style={{backgroundColor:"transparent"}} class=" form-control text-white" onChange={this.handlePassword} id="fname2" />
+                </div>
+              </div>
+		<div class=" form-group">
+		<div style={{backgroundColor:"transparent"}} ><input type="submit"  style={{maxWidth:"40%",fontSize:"80%"}}value="Go"  class="  btn btn-primary  btn-md text-white" /></div></div>
+		<div class=" form-group">
+		<div style={{backgroundColor:"transparent"}} ><label style={{color:"red"}} ><h2>{this.state.message}</h2></label></div></div>
+		
+		
              
 
              
@@ -172,7 +172,7 @@ class Stud extends React.Component {
               
 
 
-  
+  		
             </form>
           </div>
 	</div>
