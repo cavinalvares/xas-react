@@ -37,7 +37,7 @@ export default class Pal_black_arts extends React.Component {
     let b=0,g=0,a=0,e=0;
     return (
         
-       <div class="  overlay" style={{backgroundColor:"red"}}>
+       <div class="  overlay" >
         <MDBContainer>
          <Doughnut data={this.state.data1} options = {{responsive:true}}/>
          </MDBContainer><br/><br/>
