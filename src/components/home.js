@@ -75,7 +75,7 @@ render() {
     </header>
 
          
-	<div class="  my-overlay" style={{backgroundImage:"url(./images/management.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
+	<div  className="site-blocks-cover overlay " style={{backgroundImage:"url(./images/management.jpg)",width:"100%",maxWidth:"100%"}}  data-aos="fade" >
       <div className="container">
         <div className="row align-items-center justify-content-center text-center">
 
