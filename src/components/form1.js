@@ -149,7 +149,7 @@ export default class Post extends React.Component {
       value6:this.state.value6,
     };
       console.log(user)
-    axios.post(`https://xaviers-analytic-system.herokuapp.com/form`, { user })
+    axios.post(`https://xaviers-analytics-system.herokuapp.com/form`, { user })
        }
 
  
@@ -234,32 +234,33 @@ export default class Post extends React.Component {
 		<table >
 		<tbody>
 		<tr >
-		<th style={{backgroundColor:"transparent",align:"center"}}><label className="text-white "><h5>Enter Subject</h5></label></th>            
-		<th style={{backgroundColor:"transparent"}}><label className="text-white  "><h5>Enter Marks</h5></label></th>
+		<th style={{backgroundColor:"transparent"}}><label className="text-white "><h5>Enter Subject</h5></label></th>            
+		<th style={{backgroundColor:"transparent"}}><label className="text-white  " ><h5>Enter Marks</h5></label></th>
                 </tr>
 		<tr>
-		<td style={{backgroundColor:"transparent"}}><select  class="form-control " onChange={this.handleChange1} style={{borderRadius:'10px'}}>{list}</select></td>
-		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form " onChange={this.valueChange1} style={{borderRadius:'10px',width:'90%',textAlign:'center'}} /></td>
+		<td  style={{backgroundColor:"transparent"}}><select  class="form-control " onChange={this.handleChange1} style={{borderRadius:'10px'}}>{list}</select></td>
+		
+		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form "   onChange={this.valueChange1} style={{borderRadius:'10px',width:"90%",textAlign:"center"}} /></td>
 		</tr>
 		<tr>
 		<td style={{backgroundColor:"transparent"}}><select  class="form-control " onChange={this.handleChange2} style={{borderRadius:'10px'}}>{list}</select></td>
-		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange2} style={{borderRadius:'10px',width:'90%',textAlign:'center'}} /></td>
+		<td  style={{backgroundColor:"transparent" }}><input type='number'  className="group-form" onChange={this.valueChange2} style={{borderRadius:'10px',width:"90%",textAlign:"center"}} /></td>
 		</tr>
 		<tr>
 		<td style={{backgroundColor:"transparent"}}><select  class="form-control " onChange={this.handleChange3} style={{borderRadius:'10px'}}>{list}</select></td>
-		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange3} style={{borderRadius:'10px',width:'90%',textAlign:'center'}} /></td>
+		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange3} style={{borderRadius:'10px',width:"90%",textAlign:"center"}} /></td>
 		</tr>
 		<tr>
 		<td style={{backgroundColor:"transparent"}}><select  class="form-control " onChange={this.handleChange4} style={{borderRadius:'10px'}}>{list}</select></td>
-		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange4} style={{borderRadius:'10px',width:'90%',textAlign:'center'}} /></td>
+		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange4} style={{borderRadius:'10px',width:"90%",textAlign:"center"}} /></td>
 		</tr>
 		<tr>
 		<td style={{backgroundColor:"transparent"}}><select  class="form-control" onChange={this.handleChange5} style={{borderRadius:'10px'}}>{list}</select></td>
-		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange5} style={{borderRadius:'10px',width:'90%',textAlign:'center'}} /></td>
+		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange5} style={{borderRadius:'10px',width:"90%",textAlign:"center"}} /></td>
 		</tr>
 		<tr>
 		<td style={{backgroundColor:"transparent"}}><select  class="form-control" onChange={this.handleChange6} style={{borderRadius:'10px'}}>{list}</select></td>
-		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange6} style={{borderRadius:'10px',width:'90%',textAlign:'center'}} /></td>
+		<td style={{backgroundColor:"transparent"}}><input type='number' className="group-form" onChange={this.valueChange6} style={{borderRadius:'10px',width:"90%",textAlign:"center"}} /></td>
 		</tr>
 		<tr><td colSpan="2" style={{backgroundColor:"transparent",textAlign:"left"}}> <input type="submit"  value="Next" class="btn btn-primary btn-md text-white" /></td></tr>
 
