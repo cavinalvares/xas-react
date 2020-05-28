@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'
+import Stud_demo from './components/stud_demo'
 import Home from './components/home'
 import Users from './components/user'
 import About from './components/about'
@@ -37,6 +38,7 @@ const routing = (<Router>
     <div>
    
     <Route exact path="/" component={Home} />
+ 	  <Route path="/stud_demo" component={Stud_demo} />
           <Route path="/users" component={Users} />
           <Route path="/about" component={About} />
           <Route path="/form" component={Post} />
