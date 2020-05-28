@@ -585,6 +585,17 @@ h1, h2, h3, h4, h5,
           padding-left: 15px !important; }
 
 /* Blocks */
+
+.my-overlay{
+min-height:100%;
+  
+
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);;
+
+}
+
+
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
