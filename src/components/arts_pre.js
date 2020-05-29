@@ -86,41 +86,42 @@ export default class Arts_pre extends React.Component {
                 
                  <table align="center" border="1" className="text-black">
 		<tbody>
-		<tr align="center"><th width="800"><h2>Combination</h2></th><th><h2>recommended</h2></th></tr>
-		<tr><th colSpan="2"><h2>Group-1</h2></th></tr>
+		<tr><th>Combination</th><th>recommended</th></tr>
+		<tr><th colSpan="2">Group-1</th></tr>
 	
+		
           
             
 	{this.state.persons.map((c)=>{
 		if(c.id===5 ||c.id===6 ||c.id===8 || c.id===10)
             return(
 	    <tr key = {c.id} >
-            <td  style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
-	    <td  style={{textAlign:"center"}}><h5>{c.r}</h5></td>
+            <td width="5%" style={{textAlign:"center"}}>  {c.name}</td> 
+	    <td width="5%" style={{textAlign:"center"}}>{c.r}</td>
 	    </tr>
 	)
           })}
 
-	<tr><th colSpan="2"><h2>Group-2</h2></th></tr>
-
+	<tr><th colSpan="2">Group-2</th></tr>
+	
 	 {this.state.persons.map((c)=>{
 		if(c.id===2 ||c.id===7 ||c.id===11)
             return(
 	    <tr key = {c.id} >
-            <td style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
-	    <td style={{textAlign:"center"}}><h5>{c.r}</h5></td>
+            <td width="5%" style={{textAlign:"center"}}>{c.name}</td> 
+	    <td width="5%" style={{textAlign:"center"}}>{c.r}</td>
 	    </tr>
 	 )
           })}
 	
-	<tr><th colSpan="2"><h2>Group-3</h2></th></tr>
-
+	<tr><th colSpan="2">Group-3</th></tr>
+	
 	 {this.state.persons.map((c)=>{
 		if(c.id===9 ||c.id===3 ||c.id===1 ||c.id===4)
             return(
 		<tr key = {c.id} >
-            <td style={{textAlign:"center"}}> <h5> {c.name}</h5></td> 
-	    <td style={{textAlign:"center"}}><h5>{c.r}</h5></td>
+            <td width="5%" style={{textAlign:"center"}}>{c.name}</td> 
+	    <td width="5%" style={{textAlign:"center"}}>{c.r}</td>
 	    </tr>
 		 )
           })}
