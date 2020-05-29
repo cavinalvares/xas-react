@@ -80,7 +80,7 @@ export default class Car extends React.Component {
 	        
 <div class="  my-overlay" style={{backgroundImage:"url(./images/science_add.jpg)",backgroundSize:"100% 100%"}} data-aos="fade">
       <div className="container">
-        <div className="row align-items-center justify-content-center text-center">
+        <div className="row  justify-content-center text-center">
 
           <div className="col-md-12" data-aos="fade-up" data-aos-delay="400">
                         
